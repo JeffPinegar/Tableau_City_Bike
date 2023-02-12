@@ -8961,23 +8961,6 @@
               <bucket>&quot;94&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[cnt:ride_id:qk]&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[sum:Calculation_607704535495462913:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[avg:Calculation_607704535495462913:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[usr:Calculation_1525594434291527687:qk]&quot;</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[mn:started_at:ok]' type='palette'>
             <map to='#499894'>
               <bucket>9</bucket>
@@ -9016,6 +8999,31 @@
               <bucket>4</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[none:rideable_type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;classic_bike&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;electric_bike&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[cnt:ride_id:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[sum:Calculation_607704535495462913:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[avg:Calculation_607704535495462913:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18e1vyk14zufau10r2r2i1w1vy9v].[usr:Calculation_1525594434291527687:qk]&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:start_DOW:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;Sunday&quot;</bucket>
@@ -9037,14 +9045,6 @@
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;Monday&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:rideable_type:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;classic_bike&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;electric_bike&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -10800,8 +10800,8 @@
           </layout-options>
           <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='74' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='76' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
                 <zone h='5339' id='7' type-v2='title' w='60981' x='586' y='1042'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10986,8 +10986,8 @@
           </layout-options>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='74' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='76' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
                 <zone h='5339' id='52' type-v2='title' w='98828' x='586' y='1042'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -11172,7 +11172,7 @@
       </viewpoint>
       <simple-id uuid='{7F41311A-3CBE-438A-A2EC-9A934B7E0E52}' />
     </window>
-    <window class='dashboard' name='Durration Dash' tab-color='#f66273'>
+    <window class='dashboard' maximized='true' name='Durration Dash' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='Bike Type Members'>
           <zoom type='entire-view' />
@@ -11486,7 +11486,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='42' />
+      <active id='46' />
       <simple-id uuid='{39E9F9FA-4B6A-4415-8A63-0A04DBA98327}' />
     </window>
     <window class='worksheet' name='Rnd over 1hr' tab-color='#72bcbb'>
@@ -11607,7 +11607,7 @@
       </viewpoint>
       <simple-id uuid='{8B5E543B-63CD-433E-8E12-38AA16A01A2D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Bike Type Members RndTP' tab-color='#72bcbb'>
+    <window class='worksheet' name='Bike Type Members RndTP' tab-color='#72bcbb'>
       <cards>
         <edge name='left'>
           <strip size='160'>
